@@ -102,11 +102,10 @@ class TicTacToe
   
   def play 
     until over? do
-      
-    # until the game is over
-    #   take turns
-    # end
-     
+      turn
+    end   
+   
+    if      
     # if the game was won
     #   congratulate the winner
     # else if the game was a draw
