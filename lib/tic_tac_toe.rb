@@ -77,6 +77,7 @@ class TicTacToe
   def won?
     
     WIN_COMBINATIONS.each do |combos|
+      if position_taken()
       @board[combos[0]] 
     end   
     #x_array = board.each_index.select{|i| board[i] == 'X'}
