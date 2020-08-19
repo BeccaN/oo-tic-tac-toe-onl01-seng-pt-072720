@@ -78,6 +78,8 @@ class TicTacToe
     WIN_COMBINATIONS.each do |combos|
       if position_taken?(combos[0]) && @board[combos[0]] == @board[combos[1]] && @board[combos[1]] == @board[combos[2]]
         return combos
+      else 
+        false
       end 
     end   
   end
