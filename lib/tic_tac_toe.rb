@@ -77,7 +77,7 @@ class TicTacToe
   def won?
     
     WIN_COMBINATIONS.any? do |combos|
-      if position_taken?(@board[combos[0]]) && @board[combos[0]] == @board[combos[1]] && @board[combos[1]] == @board[combos[2]]
+      if position_taken?(@board[combos[0]]) && @board[combos[0]] == @board[combos[1]] && @board[combos[1]] == @board[combos[2]])
         combos
       end 
     end   
