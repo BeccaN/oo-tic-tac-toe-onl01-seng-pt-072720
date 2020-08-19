@@ -74,30 +74,25 @@ class TicTacToe
   
   def won?
     
-    x_array = board.each_index.select{|i| board[i] == 'X'}
-    o_array = board.each_index.select{|i| board[i] == 'O'}
+    #x_array = board.each_index.select{|i| board[i] == 'X'}
+    #o_array = board.each_index.select{|i| board[i] == 'O'}
     
-    #see if x_array contains a win condition
-    
-  end 
+  end
   
   def full?
     @board.all?{|square| sqaure != " "}
   end   
   
   def draw?
-    #if board is full? and no won? was met.
     full? && !won?
   end 
   
   def over?
-    #returns true if board has reached a win condition or is draw
     won? || draw?
   end   
   
   def winner
-    #given a winning board, the winnder mehtod should return the token of the player that has won 
-    
+    #code
   end 
   
   def play 
