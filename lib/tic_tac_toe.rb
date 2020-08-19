@@ -105,7 +105,8 @@ class TicTacToe
       turn
     end   
    
-    if      
+    if won? 
+      
     # if the game was won
     #   congratulate the winner
     # else if the game was a draw
