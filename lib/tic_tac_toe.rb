@@ -103,7 +103,6 @@ class TicTacToe
   end 
   
   def play 
-    
     # until the game is over
     #   take turns
     # end
